@@ -3,6 +3,13 @@ h2{
     padding:25px;
 }
 
-main{
+.contenedor{
+    margin:auto;
+    width: 50%;
     align-content: center;
+}
+
+button{
+    width: 100%;
+    padding:25px;
 }
