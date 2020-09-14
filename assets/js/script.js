@@ -32,9 +32,9 @@ function generarCard(personaje){
         <div class="card p-3" style="width: 100%;">
             <img class="card-img-top" src="${personaje.sprites.front_default}" alt="${personaje.name}">
             <div class="card-body">
-                <h5 class="card-title text-uppercase text-center">${personaje.name}</h5>
-                <p class="card-text"><b>Tipo:</b>&nbsp;${personaje.types[0].type.name}</p>
-                <p class="card-text"><b>Habilidad:</b>&nbsp;${personaje.abilities[0].ability.name}</p>
+                <h5 class="card-title text-uppercase text-center font-weight-bold">${personaje.name}</h5>
+                <p class="card-text text-center">Tipo: ${personaje.types[0].type.name}</p>
+                <p class="card-text text-center">Habilidad: ${personaje.abilities[0].ability.name}</p>
             </div>
         </div>`
 
@@ -52,7 +52,7 @@ pokeStats.push(hp, atk, def, sat, sdf, spd);
         theme: "light1", // "light2", "dark1", "dark2"
         animationEnabled: false, // change to true		
         title:{
-          text: "Stats Pokemon"
+          text: "Stats Pokémon"
         },
         data: [
         {
